@@ -1,3 +1,3 @@
 <?php
 
-echo "Hello!";
+include "fundametos/variaveis.php";
