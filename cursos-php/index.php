@@ -1,3 +1,4 @@
 <?php
 
-include "fundametos/variaveis.php";
+// include "fundametos/tipodedados.php";
+
