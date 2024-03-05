@@ -1,4 +1,6 @@
 <?php
 
-// include "fundametos/tipodedados.php";
+include "fundametos/exercicios02.php";
+
+
 
