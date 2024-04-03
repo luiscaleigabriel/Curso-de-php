@@ -1,6 +1,6 @@
 <?php
 
-include "fundametos/exercicios02.php";
+include "./oop/index.php";
 
 
 
