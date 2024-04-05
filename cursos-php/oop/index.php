@@ -1,3 +1,3 @@
 <?php
 
-include 'banco.php';
+include 'metodoestatico.php';
