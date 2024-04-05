@@ -1,3 +1,3 @@
 <?php
 
-include 'eranca.php';
+include 'banco.php';

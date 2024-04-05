@@ -1,9 +1,9 @@
 <?php
 
 class Veiculo {
-    public $modelo;
-    public $cor;
-    public $ano;
+    private $modelo;
+    private $cor;
+    private $ano;
 
     public function andar() {
         echo '<br> Adando...';
@@ -11,6 +11,14 @@ class Veiculo {
 
     public function parar() {
         echo '<br> Parrou';
+    }
+
+    public function getModelo() {
+        return $this->modelo;
+    }
+
+    public function setModelo(string $modelo) {
+        return $this->modelo = $modelo;
     }
 }
 
@@ -31,11 +39,9 @@ class Moto extends Veiculo {
 }
 
 $carro = new Carro();
-$carro->cor = 'Azul';
-$carro->ano = '2020';
+$carro->setModelo('Tp');
 $carro->ligarlimpador();
 
 $moto = new Moto();
-$moto->cor = 'Verde';
-$moto->ano = '2000';
+$moto->setModelo('mm');
 $moto->darRoda();
